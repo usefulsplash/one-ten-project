@@ -1,0 +1,6 @@
+{
+	"runtime": "nodejs18.x",
+	"handler": "home/splash/Code/one-ten-project/dist/entry.mjs",
+	"launcherType": "Nodejs",
+	"supportsResponseStreaming": true
+}
