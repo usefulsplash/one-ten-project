@@ -10,16 +10,15 @@ export const prerender = true;
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<section
-			class="h-screen flex items-center justify-center bg-slate-50"
-		>
-			<form action="/secret" class="p-12 rounded-xl bg-white">
-				<label>Please enter password:</label><br />
+	<body class="flex-col min-h-max justify-center items-start">
+		<section class="m-64 bg-black">
+			<form action="/secret" class="text-lime-500">
+				<label>password:</label>
 				<input
 					type="text"
 					id="secret"
 					name="password"
+					placeholder="Enter here"
 				/><br />
 			</form>
 		</section>
