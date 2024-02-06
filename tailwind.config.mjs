@@ -5,8 +5,9 @@ export default {
 		extend: {
 			colors: {
 				primary: "#672020",
-				secondary: "#b02d2d",
-				accent: "#73846d"
+				secondary: "#fec8cd",
+				accent: "#15ff00",
+				background: "#000000"
 			},
 			fontFamily: {
 				ubuntu_mono: ["Ubuntu Monospace"],

@@ -10,17 +10,15 @@ export const prerender = true;
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body
-		class="flex-col min-h-max justify-center items-start font-ubuntu_mono"
-	>
-		<section class="m-64 bg-black">
-			<form action="/secret" class="text-lime-500">
-				<label>password:</label>
+	<body class="m-8 bg-background font-ubuntu_mono">
+		<section class="">
+			<form action="/secret" class="bg-background">
+				<label class="text-accent">password:</label>
 				<input
 					type="text"
 					id="secret"
 					name="password"
-					placeholder="Enter here"
+					class="text-accent bg-background"
 				/><br />
 			</form>
 		</section>
